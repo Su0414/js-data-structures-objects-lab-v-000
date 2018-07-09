@@ -21,5 +21,4 @@ function destructivelyDeleteFromDriverByKey(driver, key){
 
     let res = Object.assign({}, driver)
     delete res[key]
-    return res
 }
